@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project</title>
+  <link rel="icon" href="./project_icons/web_logo.png" type="image/icon type">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="bg-blue-900">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="#">
+        <img src="./project_icons/logo_header.png" width="250" height="50">
+      </div>
+  
+      <!-- Desktop Menu -->
+      <nav class="hidden lg:flex space-x-4">
+        <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+        <a class="hover:text-blue-300" href="about.html">| ABOUT |</a>
+        <a class="hover:text-blue-300" href="project.html">| PROJECT |</a>
+        <a class="hover:text-blue-300" href="team_member.html">| TEAM MEMBER |</a>
+        <a class="hover:text-blue-300" href="contact.html">| CONTACT US |</a>
+      </nav>
+  
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden">
+        <button id="mobile-menu-toggle" class="text-white focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="lg:hidden hidden flex-col space-y-2 px-6 pb-4">
+      <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+      <a class="hover:text-blue-300" href="about.html">  ABOUT |</a>
+      <a class="hover:text-blue-300" href="project.html">  PROJECT |</a>
+      <a class="hover:text-blue-300" href="team_member.html">  TEAM MEMBER |</a>
+      <a class="hover:text-blue-300" href="contact.html">  CONTACT US |</a>
+    </nav>
+  </header>
+           <!-- Featured Projects -->
+    <section class="py-12 bg-gray-800">
+      <div class="container mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-8">OUR PROJECTS</h2>
+          <div class="flex flex-wrap justify-center gap-8 px-4">
+            <!-- Project 1 -->
+            <div class="bg-gray-700 p-4 rounded w-full sm:w-[300px] md:w-[280px]">
+              <img src="./project_icons/ecm.png" class="w-full h-30 object-cover mb-4" alt="Electricity Usage Tracker" />
+              <h3 class="text-xl font-bold">Electricity Usage Tracker</h3>
+              <p class="mt-2">A web app to track and visualize electricity consumption using data analytics and charts.</p>
+            </div>
+          
+            <!-- Project 2 -->
+            <div class="bg-gray-700 p-4 rounded w-full sm:w-[300px] md:w-[280px]">
+              <img src="./project_icons/Blockchain_Voting.png" class="w-full h-30 object-cover mb-4" alt="Secure Voting Platform" />
+              <h3 class="text-xl font-bold">Secure Voting Platform</h3>
+              
+              <p class="mt-2">A blockchain-inspired voting system that ensures transparency, accessibility, and real-time result tracking for campus elections.</p>
+            </div>
+          
+            <!-- Project 3 -->
+            <div class="bg-gray-700 p-4 rounded w-full sm:w-[300px] md:w-[280px]">
+              <img src="./project_icons/IOT-based Garbage System.png" class="w-full h-30 object-cover mb-4" alt="Smart Waste Management" />
+              <h3 class="text-xl font-bold">Smart Waste Management</h3>
+             
+              <p class="mt-2">IoT-enabled bins and a tracking dashboard for urban waste monitoring and optimization of garbage collection routes.</p>
+            </div>
+          </div>
+          </div>
+      </div>
+  </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700 text-white pt-12">
+      <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+        <!-- Column 1 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">INFORMATION</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-blue-300" href="about.html">About Us</a></li>
+            <li><a class="hover:text-blue-300" href="contact.html">Contact Us</a></li>
+            <li><a class="hover:text-blue-300" href="#">Privacy Policy</a></li>
+            <li><a class="hover:text-blue-300" href="#">Terms & Conditions</a></li>
+            <li><a class="hover:text-blue-300" href="#">FAQ</a></li>
+          </ul>
+        </div>
+  
+        <!-- Column 2 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">PROJECTS</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-blue-300" href="project.html">Electricity Tracker</a></li>
+            <li><a class="hover:text-blue-300" href="project.html">Voting App</a></li>
+            <li><a class="hover:text-blue-300" href="project.html">Waste Management</a></li>
+          </ul>
+        </div>
+  
+        <!-- Column 3 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">FOLLOW US</h3>
+          <div class="flex justify-center md:justify-start space-x-4">
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+  
+        <!-- Column 4 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">NEWSLETTER</h3>
+          <p class="text-sm text-gray-400 mb-2">Stay updated with our latest projects and events.</p>
+          <input type="email" placeholder="Your email" class="px-3 py-2 rounded w-full text-black mb-2">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Subscribe</button>
+        </div>
+      </div>
+  
+      <div class="text-center py-6 mt-12 border-t border-gray-700 text-sm text-gray-400">
+        &copy; 2025 BlackCipher Hackathoner's. All rights reserved.
+      </div>
+    </footer>
+    
+              <script>
+                const toggleBtn = document.getElementById('mobile-menu-toggle');
+                const mobileMenu = document.getElementById('mobile-menu');
+              
+                toggleBtn.addEventListener('click', () => {
+                  mobileMenu.classList.toggle('hidden');
+                });
+              </script>
+              
+    </body>
+    </html>
+    

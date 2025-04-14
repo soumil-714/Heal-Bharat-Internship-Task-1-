@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team</title>
+  <link rel="icon" href="./project_icons/web_logo.png" type="image/icon type">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="bg-blue-900">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+          <div class="#">
+            <img src="./project_icons/logo_header.png" width="250" height="50">
+          </div>
+      
+          <!-- Desktop Menu -->
+          <nav class="hidden md:flex space-x-4">
+            <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+            <a class="hover:text-blue-300" href="about.html">| ABOUT |</a>
+            <a class="hover:text-blue-300" href="project.html">| PROJECT |</a>
+            <a class="hover:text-blue-300" href="team_member.html">| TEAM MEMBER |</a>
+            <a class="hover:text-blue-300" href="contact.html">| CONTACT US |</a>
+          </nav>
+      
+          <!-- Mobile Menu Button -->
+          <div class="md:hidden">
+            <button id="mobile-menu-toggle" class="text-white focus:outline-none">
+              <i class="fas fa-bars text-xl"></i>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Mobile Menu -->
+        <nav id="mobile-menu" class="md:hidden hidden flex-col space-y-2 px-6 pb-4">
+          <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+          <a class="hover:text-blue-300" href="about.html"> ABOUT |</a>
+          <a class="hover:text-blue-300" href="project.html"> PROJECT |</a>
+          <a class="hover:text-blue-300" href="team_member.html"> TEAM MEMBER |</a>
+          <a class="hover:text-blue-300" href="contact.html"> CONTACT US |</a>
+        </nav>
+      </header>
+  <main class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- Card 1 -->
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <img src="./project_icons/male_profile1.png" alt="Alice Sharma" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover" />
+      <h3 class="text-xl font-bold text-purple-700">Alice Sharma</h3>
+      <p class="text-gray-600">Frontend Developer</p>
+      <p class="mt-2 text-sm text-gray-500">Expert in HTML, CSS, and Tailwind. Loves creating clean, responsive UI.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <img src="./project_icons/male2proflie.avif" alt="Rohit Mehta" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover" />
+      <h3 class="text-xl font-bold text-purple-700">Rohit Mehta</h3>
+      <p class="text-gray-600">Backend Developer</p>
+      <p class="mt-2 text-sm text-gray-500">Handles databases, APIs, and server-side logic using Node.js and Python.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <img src="./project_icons/female1profile.avif" alt="Neha Verma" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover" />
+      <h3 class="text-xl font-bold text-purple-700">Neha Verma</h3>
+      <p class="text-gray-600">UI/UX Designer</p>
+      <p class="mt-2 text-sm text-gray-500">Designs intuitive user interfaces and creates stunning user experiences.</p>
+    </div>
+     <!-- Card 4 -->
+    <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <img src="./project_icons/male3proflie.jpg" alt="Rohan Mehta" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover" />
+      <h3 class="text-xl font-bold text-green-700">Rohan Mehta</h3>
+      <p class="text-gray-600">Blockchain & IoT Developer</p>
+      <p class="mt-2 text-sm text-gray-500">Skilled in smart contracts, microcontrollers, and sensor integrations. Bridging blockchain with the physical world.</p>
+    </div>
+     <!-- Card 5 -->
+     <div class="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <img src="./project_icons/female2profile.jpg" alt="Priya Nair" class="rounded-full mx-auto mb-4 w-32 h-32 object-cover" />
+      <h3 class="text-xl font-bold text-blue-700">Priya Nair</h3>
+      <p class="text-gray-600">AI & System Architect</p>
+      <p class="mt-2 text-sm text-gray-500">Expert in LLM pipelines, machine learning models, and scalable backend systems. Passionate about generative AI and system design.</p>
+    </div>
+    
+
+  </main>
+<!-- Footer -->
+<footer class="bg-gray-900 border-t border-gray-700 text-white pt-12">
+  <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+    <!-- Column 1 -->
+    <div>
+      <h3 class="text-xl font-bold mb-4">INFORMATION</h3>
+      <ul class="space-y-2">
+        <li><a class="hover:text-blue-300" href="about.html">About Us</a></li>
+        <li><a class="hover:text-blue-300" href="contact.html">Contact Us</a></li>
+        <li><a class="hover:text-blue-300" href="#">Privacy Policy</a></li>
+        <li><a class="hover:text-blue-300" href="#">Terms & Conditions</a></li>
+        <li><a class="hover:text-blue-300" href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <h3 class="text-xl font-bold mb-4">PROJECTS</h3>
+      <ul class="space-y-2">
+        <li><a class="hover:text-blue-300" href="project.html">Electricity Tracker</a></li>
+        <li><a class="hover:text-blue-300" href="project.html">Voting App</a></li>
+        <li><a class="hover:text-blue-300" href="project.html">Waste Management</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <h3 class="text-xl font-bold mb-4">FOLLOW US</h3>
+      <div class="flex justify-center md:justify-start space-x-4">
+        <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="hover:text-blue-300"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Column 4 -->
+    <div>
+      <h3 class="text-xl font-bold mb-4">NEWSLETTER</h3>
+      <p class="text-sm text-gray-400 mb-2">Stay updated with our latest projects and events.</p>
+      <input type="email" placeholder="Your email" class="px-3 py-2 rounded w-full text-black mb-2">
+      <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Subscribe</button>
+    </div>
+  </div>
+
+  <div class="text-center py-6 mt-12 border-t border-gray-700 text-sm text-gray-400">
+    &copy; 2025 BlackCipher Hackathoner's. All rights reserved.
+  </div>
+</footer>
+
+  <script>
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+  
+    toggleBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  
+</body>
+</html>

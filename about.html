@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABOUT</title>
+  <link rel="icon" href="./project_icons/web_logo.png" type="image/icon type">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="bg-blue-900">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="header_logo">
+        <img src="./project_icons/logo_header.png" width="250" height="50">
+      </div>
+  
+<!-- Desktop Menu -->
+      <nav class="hidden lg:flex space-x-4">
+        <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+        <a class="hover:text-blue-300" href="about.html">| ABOUT |</a>
+        <a class="hover:text-blue-300" href="project.html">| PROJECT |</a>
+        <a class="hover:text-blue-300" href="team_member.html">| TEAM MEMBER |</a>
+        <a class="hover:text-blue-300" href="contact.html">| CONTACT US |</a>
+      </nav>
+  
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden">
+        <button id="mobile-menu-toggle" class="text-white focus:outline-none">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="lg:hidden hidden flex-col space-y-2 px-6 pb-4">
+      <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+      <a class="hover:text-blue-300" href="about.html">  ABOUT |</a>
+      <a class="hover:text-blue-300" href="project.html">  PROJECT |</a>
+      <a class="hover:text-blue-300" href="team_member.html">  TEAM MEMBER |</a>
+      <a class="hover:text-blue-300" href="contact.html">  CONTACT US |</a>
+    </nav>
+  </header>
+      <main class="bg-black bg-opacity-15 p-6 max-w-3xl mx-auto">
+        <section class="py-16 bg-grey-900">
+            <div class="max-w-5xl mx-auto px-6 text-center">
+              <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">Who Are We?</h1>
+              <p class="text-lg text-white mb-8">
+                We're not just another hackathon team. We're a group of innovators, coders, designers, and dreamers who believe in building solutions that matter. Every hackathon is a new challenge, a new adventure, and a new chance to push boundaries.
+              </p>
+            </div>
+          
+            <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
+              
+              <!-- Mission -->
+              <div class="bg-black bg-opacity-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+                <h2 class="text-2xl font-semibold text-indigo-800 mb-4">🚀 Our Mission</h2>
+                <p class="text-white">
+                  To create impactful tech solutions that solve real-world problems — whether it's optimizing energy, enabling rural healthcare, or building secure voting platforms. We aim to learn fast, fail forward, and ship smart.
+                </p>
+              </div>
+          
+              <!-- What We Do -->
+              <div class="bg-black bg-opacity-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+                <h2 class="text-2xl font-semibold text-indigo-800 mb-4">🛠️ What We Do</h2>
+                <p class="text-white">
+                  We specialize in full-stack development, IoT integrations, AI/ML, and creative problem-solving under pressure. Each member brings a unique superpower, and together we build projects that turn heads and win hearts.
+                </p>
+              </div>
+          
+              <!-- Our Ethos -->
+              <div class="bg-black bg-opacity-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+                <h2 class="text-2xl font-semibold text-indigo-800 mb-4">💡 Our Ethos</h2>
+                <p class="text-white">
+                  We believe in collaboration over competition, learning by doing, and that no idea is too big or too wild. Our hackathons are a place where ideas grow into code — fast.
+                </p>
+              </div>
+          
+              <!-- Join Us -->
+              <div class="bg-black bg-opacity-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300">
+                <h2 class="text-2xl font-semibold text-blue-800 mb-4">🤝 Join the Squad</h2>
+                <p class="text-white mb-4">
+                  Whether you're a developer, designer, or just someone crazy about tech, we'd love to have you on board. Let’s build something epic together. Join us, and let’s hack the future.
+                </p>
+                <a href="contact.html" class="inline-block mt-2 px-6 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700 transition">Join Us Now</a>
+              </div>
+          
+            </div>
+          </section>
+          
+          
+      </main>
+   <!-- Footer -->
+   <footer class="bg-gray-900 border-t border-gray-700 text-white pt-12">
+    <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+      <!-- Column 1 -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">INFORMATION</h3>
+        <ul class="space-y-2">
+          <li><a class="hover:text-blue-300" href="about.html">About Us</a></li>
+          <li><a class="hover:text-blue-300" href="contact.html">Contact Us</a></li>
+          <li><a class="hover:text-blue-300" href="#">Privacy Policy</a></li>
+          <li><a class="hover:text-blue-300" href="#">Terms & Conditions</a></li>
+          <li><a class="hover:text-blue-300" href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2 -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">PROJECTS</h3>
+        <ul class="space-y-2">
+          <li><a class="hover:text-blue-300" href="project.html">Electricity Tracker</a></li>
+          <li><a class="hover:text-blue-300" href="project.html">Voting App</a></li>
+          <li><a class="hover:text-blue-300" href="project.html">Waste Management</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">FOLLOW US</h3>
+        <div class="flex justify-center md:justify-start space-x-4">
+          <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-blue-300"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 4 -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">NEWSLETTER</h3>
+        <p class="text-sm text-gray-400 mb-2">Stay updated with our latest projects and events.</p>
+        <input type="email" placeholder="Your email" class="px-3 py-2 rounded w-full text-black mb-2">
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Subscribe</button>
+      </div>
+    </div>
+
+    <div class="text-center py-6 mt-12 border-t border-gray-700 text-sm text-gray-400">
+      &copy; 2025 BlackCipher Hackathoner's. All rights reserved.
+    </div>
+  </footer>
+
+            <script>
+                const toggleBtn = document.getElementById('mobile-menu-toggle');
+                const mobileMenu = document.getElementById('mobile-menu');
+              
+                toggleBtn.addEventListener('click', () => {
+                  mobileMenu.classList.toggle('hidden');
+                });
+              </script>
+</body>
+</html>
