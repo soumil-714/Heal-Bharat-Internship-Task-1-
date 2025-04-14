@@ -15,38 +15,39 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
 </head>
 <body class="bg-gray-900 text-white">
+    <!-- Header -->
     <header class="bg-blue-900">
-        <div class="container mx-auto flex justify-between items-center py-4 px-6">
-          <div class="#">
-            <img src="./project_icons/logo_header.png" width="250" height="50">
-          </div>
-      
-          <!-- Desktop Menu -->
-          <nav class="hidden md:flex space-x-4">
-            <a class="hover:text-blue-300" href="index.html">| HOME |</a>
-            <a class="hover:text-blue-300" href="about.html">| ABOUT |</a>
-            <a class="hover:text-blue-300" href="project.html">| PROJECT |</a>
-            <a class="hover:text-blue-300" href="team_member.html">| TEAM MEMBER |</a>
-            <a class="hover:text-blue-300" href="contact.html">| CONTACT US |</a>
-          </nav>
-      
-          <!-- Mobile Menu Button -->
-          <div class="md:hidden">
-            <button id="mobile-menu-toggle" class="text-white focus:outline-none">
-              <i class="fas fa-bars text-xl"></i>
-            </button>
-          </div>
+      <div class="container mx-auto flex justify-between items-center py-4 px-6">
+        <div class="#">
+          <img src="./project_icons/logo_header.png" width="250" height="50">
         </div>
-      
-        <!-- Mobile Menu -->
-        <nav id="mobile-menu" class="md:hidden hidden flex-col space-y-2 px-6 pb-4">
+    
+        <!-- Desktop Menu -->
+        <nav class="hidden lg:flex space-x-4">
           <a class="hover:text-blue-300" href="index.html">| HOME |</a>
-          <a class="hover:text-blue-300" href="about.html"> ABOUT |</a>
-          <a class="hover:text-blue-300" href="project.html"> PROJECT |</a>
-          <a class="hover:text-blue-300" href="team_member.html"> TEAM MEMBER |</a>
-          <a class="hover:text-blue-300" href="contact.html"> CONTACT US |</a>
+          <a class="hover:text-blue-300" href="about.html">| ABOUT |</a>
+          <a class="hover:text-blue-300" href="project.html">| PROJECT |</a>
+          <a class="hover:text-blue-300" href="team_member.html">| TEAM MEMBER |</a>
+          <a class="hover:text-blue-300" href="contact.html">| CONTACT US |</a>
         </nav>
-      </header>
+    
+        <!-- Mobile Menu Button -->
+        <div class="lg:hidden">
+          <button id="mobile-menu-toggle" class="text-white focus:outline-none">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    
+      <!-- Mobile Menu -->
+      <nav id="mobile-menu" class="lg:hidden hidden flex-col space-y-2 px-6 pb-4">
+        <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+        <a class="hover:text-blue-300" href="about.html"> ABOUT |</a>
+        <a class="hover:text-blue-300" href="project.html"> PROJECT |</a>
+        <a class="hover:text-blue-300" href="team_member.html"> TEAM MEMBER |</a>
+        <a class="hover:text-blue-300" href="contact.html"> CONTACT US |</a>
+      </nav>
+    </header>
   <main class="p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     
     <!-- Card 1 -->
