@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="description" content="Explore innovative tech projects by BlackCiphers. From Smart India Hackathon entries to electricity usage trackers and beyond.">
+    <meta name="keywords" content="hackathon, BlackCiphers, tech projects, SIH, electricity tracker, coding, web development, student innovations">
+    
+
+    <title>Black Ciphers</title>
+    <link rel="icon" href="project_icons/web_logo.png" type="image/icon type">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <style>
+       
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="bg-blue-900">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+          <div class="#">
+            <img src="project_icons/logo_header.png" width="250" height="50">
+          </div>
+      
+          <!-- Desktop Menu -->
+          <nav class="hidden lg:flex space-x-4">
+            <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+            <a class="hover:text-blue-300" href="about.html">| ABOUT |</a>
+            <a class="hover:text-blue-300" href="project.html">| PROJECT |</a>
+            <a class="hover:text-blue-300" href="team_member.html">| TEAM MEMBER |</a>
+            <a class="hover:text-blue-300" href="contact.html">| CONTACT US |</a>
+          </nav>
+      
+          <!-- Mobile Menu Button -->
+          <div class="lg:hidden">
+            <button id="mobile-menu-toggle" class="text-white focus:outline-none">
+              <i class="fas fa-bars text-xl"></i>
+            </button>
+          </div>
+        </div>
+      
+        <!-- Mobile Menu -->
+        <nav id="mobile-menu" class="lg:hidden hidden flex-col space-y-2 px-6 pb-4">
+          <a class="hover:text-blue-300" href="index.html">| HOME |</a>
+          <a class="hover:text-blue-300" href="about.html"> ABOUT |</a>
+          <a class="hover:text-blue-300" href="project.html"> PROJECT |</a>
+          <a class="hover:text-blue-300" href="team_member.html"> TEAM MEMBER |</a>
+          <a class="hover:text-blue-300" href="contact.html"> CONTACT US |</a>
+        </nav>
+      </header>
+      
+      
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+<section class="relative min-h-screen overflow-hidden">
+    <!-- Background Image -->
+    <img src="project_icons/Brand_logo.png"
+         alt="Hackathon collaboration"
+         class="absolute inset-0 w-full h-full object-cover z-0" />
+  
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black bg-opacity-70 z-10"></div>
+  
+    <!-- Content -->
+    <div class="relative z-20 flex flex-col items-center justify-center min-h-screen text-center text-white px-4 sm:px-6 md:px-12">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold drop-shadow mb-3">
+        Code. Create. Conquer.
+      </h1>
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold mb-4">
+        Join Our Hackathon Dream Team
+      </h2>
+  
+      <p class="max-w-3xl text-base sm:text-lg md:text-xl text-gray-200 mb-6 leading-relaxed px-2 sm:px-0">
+        Do you have what it takes to innovate at lightning speed? Whether you're a developer, designer,
+        or a curious thinker — we welcome your passion and creativity. Build real solutions, solve real
+        problems, and make a real impact.
+      </p>
+  
+      <ul class="text-sm sm:text-base text-gray-300 mb-6 space-y-2">
+        <li>✅ Real-world challenges to solve</li>
+        <li>✅ Collaborate with like-minded techies</li>
+        <li>✅ Learn, build, and innovate on the go</li>
+        <li>✅ Get mentorship and build your portfolio</li>
+      </ul>
+  
+      <!-- Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a href="about.html"
+           class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded shadow transition text-center">
+           Learn More About Us
+        </a>
+        <a href="contact.html"
+           class="bg-transparent border border-blue-500 hover:bg-blue-500 hover:text-white text-blue-300 font-bold py-2 px-6 rounded transition text-center">
+           Join the Team
+        </a>
+      </div>
+    </div>
+  </section>
+  
+      
+    
+    <!-- Featured Project -->
+    <section class="py-12 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">OUR PROJECTS</h2>
+            <div class="flex flex-wrap justify-center gap-8 px-4">
+              <!-- Project 1 -->
+              <div class="bg-gray-700 p-4 rounded w-full sm:w-[300px] md:w-[280px]">
+                <img src="project_icons/ecm.png" class="w-full h-30 object-cover mb-4" alt="Electricity Usage Tracker" />
+                <h3 class="text-xl font-bold">Electricity Usage Tracker</h3>
+                <p class="mt-2">Track and visualize electricity consumption.</p>
+              </div>
+            
+              <!-- Project 2 -->
+              <div class="bg-gray-700 p-4 rounded w-full sm:w-[300px] md:w-[280px]">
+                <img src="project_icons/Blockchain_Voting.png" class="w-full h-30 object-cover mb-4" alt="Secure Voting Platform" />
+                <h3 class="text-xl font-bold">Secure Voting Platform</h3>
+                
+                <p class="mt-2">A blockchain-inspired voting system that ensures transparency, accessibility, and real-time result tracking for campus elections.</p>
+              </div>
+            
+              <!-- Project 3 -->
+              <div class="bg-gray-700 p-4 rounded w-full sm:w-[300px] md:w-[280px]">
+                <img src="project_icons/IOT-based Garbage System.png" class="w-full h-30 object-cover mb-4" alt="Smart Waste Management" />
+                <h3 class="text-xl font-bold">Smart Waste Management</h3>
+               
+                <p class="mt-2">IoT-enabled bins and a tracking dashboard for urban waste monitoring and optimization of garbage collection routes.</p>
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Participations -->
+    <section class="py-12 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">OUR TOP PARTICIPATION</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Participation 1 -->
+                <div class="relative">
+                    <img src="project_icons/SIH.jpg" alt="Smart India Hackathon" class="w-full h-50 object-cover rounded"/>
+                    
+                    <!-- Gradient Background -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded"></div>
+                    
+                    <!-- Bottom-aligned Text -->
+                    <div class="absolute inset-0 flex items-end justify-center p-4">
+                      <h3 class="text-2xl font-bold text-white bg-black/70 px-4 py-2 rounded">Smart India Hackathon</h3>
+                    </div>
+                  </div>
+                <!-- Participation 2 -->
+                <div class="relative">
+                    <img src="project_icons/hackwithindia_logo.jpeg" alt="Hack With India" class="w-full h-50 object-cover rounded" />
+                    
+                    <!-- Gradient Background -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded"></div>
+                    
+                    <!-- Bottom-aligned Text -->
+                    <div class="absolute inset-0 flex items-end justify-center p-4">
+                      <h3 class="text-2xl font-bold text-white bg-black/70 px-4 py-2 rounded">Hack With India</h3>
+                    </div>
+                  </div>
+                <!-- Participation 3 -->
+                <div class="relative">
+                    <img src="project_icons/INFYHack.webp" alt="Hack With Infy" class="w-full h-50 object-cover rounded" />
+                    
+                    <!-- Gradient Background -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded"></div>
+                    
+                    <!-- Bottom-aligned Text -->
+                    <div class="absolute inset-0 flex items-end justify-center p-4">
+                      <h3 class="text-2xl font-bold text-white bg-black/70 px-4 py-2 rounded">Hack With Infy</h3>
+                    </div>
+                  </div>
+                <!-- Participation 4 -->
+                <div class="relative">
+                    <img src="project_icons/GIHackathon.png" alt="Great India Hackathon" class="w-full h-50 object-cover rounded" />
+                    
+                    <!-- Gradient Background -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded"></div>
+                    
+                    <!-- Bottom-aligned Text -->
+                    <div class="absolute inset-0 flex items-end justify-center p-4">
+                      <h3 class="text-2xl font-bold text-white bg-black/70 px-4 py-2 rounded">Great India Hackathon</h3>
+                    </div>
+                  </div>
+                <!-- Participation 5 -->
+                <div class="relative">
+                    <img src="project_icons/IndiaAI.webp" alt="IndiaAI CyberGuard" class="w-full h-50object-cover rounded" />
+                    
+                    <!-- Gradient Background -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded"></div>
+                    
+                    <!-- Bottom-aligned Text -->
+                    <div class="absolute inset-0 flex items-end justify-center p-4">
+                      <h3 class="text-2xl font-bold text-white bg-black/70 px-4 py-2 rounded">IndiaAI CyberGuard AI Hackathon</h3>
+                    </div>
+                  </div>
+                <!-- Participation 6 -->
+                <div class="relative">
+                    <img src="project_icons/Instinct.png" alt="IntelliSmart(Instinct) Hackathon" class="w-full h-50 object-cover rounded" />
+                    
+                    <!-- Gradient Background -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded"></div>
+                    
+                    <!-- Bottom-aligned Text -->
+                    <div class="absolute inset-0 flex items-end justify-center p-4">
+                      <h3 class="text-2xl font-bold text-white bg-black/70 px-4 py-2 rounded">IntelliSmart (Instinct) Hackathon</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Special Projects -->
+<section class="py-12 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8 text-white">Special Ongoing Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        
+        <!-- Special Project 1 -->
+        <div class="bg-gray-700 p-4 rounded-xl transform transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-600">
+          <img alt="Special Product 1" class="w-full h-48 object-cover mb-4 rounded" src="project_icons/AI agent.webp"/>
+          <h3 class="text-xl font-bold text-white">AI Agentic</h3>
+          <p class="mt-2 text-gray-300">An AI agentic project involves designing autonomous agents that can perceive their environment, make decisions, and take actions to achieve specific goals using AI techniques.</p>
+        </div>
+  
+        <!-- Special Project 2 -->
+        <div class="bg-gray-700 p-4 rounded-xl transform transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-600">
+          <img alt="Autonomous Drone Navigation System" class="w-full h-48 object-cover mb-4 rounded" src="project_icons/drone.avif"/>
+          <h3 class="text-xl font-bold text-white">Autonomous Drone Navigation System</h3>
+          <p class="mt-2 text-gray-300">A drone equipped with sensors and onboard agents that can plan paths, avoid obstacles, and reach destinations without human help using GPS and algorithms like A* or D*.</p>
+        </div>
+  
+        <!-- Special Project 3 -->
+        <div class="bg-gray-700 p-4 rounded-xl transform transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-600">
+          <img alt="Traffic Signal Control Agent" class="w-full h-48 object-cover mb-4 rounded" src="project_icons/Traffic_agent.png"/>
+          <h3 class="text-xl font-bold text-white">Traffic Signal Control Agent</h3>
+          <p class="mt-2 text-gray-300">Smart traffic lights that adjust timings dynamically based on real-time data, emergency vehicle detection, and AI-powered predictive flow models.</p>
+        </div>
+  
+        <!-- Special Project 4 -->
+        <div class="bg-gray-700 p-4 rounded-xl transform transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-600">
+          <img alt="Stock Trading Bot" class="w-full h-48 object-cover mb-4 rounded" src="project_icons/Stock_bot.png"/>
+          <h3 class="text-xl font-bold text-white">Stock Trading Bot</h3>
+          <p class="mt-2 text-gray-300">A smart agent that uses historical and live financial data to make real-time decisions, buying/selling stocks to maximize returns with minimal risk.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700 text-white pt-12">
+      <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
+        <!-- Column 1 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">INFORMATION</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-blue-300" href="about.html">About Us</a></li>
+            <li><a class="hover:text-blue-300" href="contact.html">Contact Us</a></li>
+            <li><a class="hover:text-blue-300" href="#">Privacy Policy</a></li>
+            <li><a class="hover:text-blue-300" href="#">Terms & Conditions</a></li>
+            <li><a class="hover:text-blue-300" href="#">FAQ</a></li>
+          </ul>
+        </div>
+  
+        <!-- Column 2 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">PROJECTS</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-blue-300" href="project.html">Electricity Tracker</a></li>
+            <li><a class="hover:text-blue-300" href="project.html">Voting App</a></li>
+            <li><a class="hover:text-blue-300" href="project.html">Waste Management</a></li>
+          </ul>
+        </div>
+  
+        <!-- Column 3 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">FOLLOW US</h3>
+          <div class="flex justify-center md:justify-start space-x-4">
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+  
+        <!-- Column 4 -->
+        <div>
+          <h3 class="text-xl font-bold mb-4">NEWSLETTER</h3>
+          <p class="text-sm text-gray-400 mb-2">Stay updated with our latest projects and events.</p>
+          <input type="email" placeholder="Your email" class="px-3 py-2 rounded w-full text-black mb-2">
+          <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Subscribe</button>
+        </div>
+      </div>
+  
+      <div class="text-center py-6 mt-12 border-t border-gray-700 text-sm text-gray-400">
+        &copy; 2025 BlackCipher Hackathoner's. All rights reserved.
+      </div>
+    </footer>
+    <script>
+      const toggleBtn = document.getElementById('mobile-menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      toggleBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+                  
+                               
+</body>
+</html>
